@@ -4,7 +4,7 @@
 👍  Exercice 1 :
 
      ✔ 1.  Récupération des données d'utilisateur :
-Lorsqu'un utilisateur clique sur "Voir Profil", les données de l'utilisateur sont récupérées a l’aide une fonction asynchrone (recupererDonneesUtilisateur). Cette fonction simule un appel avec setTimeout(), pour un délai de 3 secondes avant de retourner les données.	Pendant ce délai, un message de chargement ("Infos en cours de                  téléchargement...") est affiché.
+Lorsqu'un utilisateur clique sur "Voir Profil", les données de l'utilisateur sont récupérées a l’aide une fonction asynchrone (recupererDonneesUtilisateur). Cette fonction simule un appel avec setTimeout(), pour un délai de 3 secondes avant de retourner les données.	Pendant ce délai, un message de chargement ("Infos en cours de   téléchargement...") est affiché.
      ✔ 2.  Affichage du Profil :
 Une fois les données de l'utilisateur récupérées , ils  sont affichées à l'écran. 
 
@@ -14,6 +14,10 @@ Après l'affichage du profil, un autre processus asynchrone commence pour récup
 
 👍Exercice 2 :
 
+ ✔ Création de l’API : Définition d’une route et d’un contrôleur pour gérer l’upload de fichiers.
+ ✔ Envoi des fichiers : On a Utilisatisé  fetch pour envoyer une requête POST à l’API Laravel.
+ ✔ Récupération et affichage : Apres , on  a l'Envoi d’une requête GET pour récupérer les fichiers et mise à jour dynamique de l’interface.
+ ✔ Gestion asynchrone : Utilisation des Promises pour assurer un affichage fluide des fichiers téléchargés.
 
    
 
